@@ -1,0 +1,30 @@
+{
+  "name": "jobboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EpitechMscProPromo2024/T-WEB-501-MAR-5-1-jobboard-pierre.gatschine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EpitechMscProPromo2024/T-WEB-501-MAR-5-1-jobboard-pierre.gatschine/issues"
+  },
+  "homepage": "https://github.com/EpitechMscProPromo2024/T-WEB-501-MAR-5-1-jobboard-pierre.gatschine#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "limiter": "^2.1.0",
+    "multer": "^1.4.3",
+    "mysql2": "^2.3.0"
+  }
+}

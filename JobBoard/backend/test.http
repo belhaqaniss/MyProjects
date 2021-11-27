@@ -1,0 +1,51 @@
+
+
+DELETE  http://localhost:3000/advertisements
+
+
+###
+
+POST http://localhost:3000/admin
+Content-Type: application/json
+
+{
+    "message": "Hello Toto"
+}
+
+
+###
+
+GET  http://localhost:3000/companies
+
+
+###
+
+POST  http://localhost:3000/companies
+Content-Type: application/json
+{
+    "name": "Toto company",
+    "activies": "IT",
+    "address": "1 rue Totolegrand",
+    "postal_code":"12345",
+    "city": "Totoland",
+    "siret": "1234567891011121314",
+    "password": "123Toto",
+    "numbber_employes": "100",
+    "webbsite": "https://www.totosite.fr",
+    "phone": "06 12 34 56 78",
+    "email": "toto@toto.com",
+    "contact_name": "Toto"
+}
+
+
+###
+
+POST http://localhost:3000/advertisements
+Content-Type: application/json
+
+
+###
+
+GET http://localhost:3001/advertisements
+
+
