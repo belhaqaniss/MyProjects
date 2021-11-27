@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="ch_inf" prefHeight="250.0" prefWidth="377.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.InfoController">
+   <children>
+      <Label layoutX="102.0" layoutY="25.0" prefHeight="79.0" prefWidth="204.0" text="Choisir Abonné :">
+         <font>
+            <Font name="Times New Roman Bold" size="23.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="Inf_ch" layoutX="92.0" layoutY="105.0" prefHeight="41.0" prefWidth="193.0" />
+      <Button fx:id="ok" layoutX="280.0" layoutY="201.0" mnemonicParsing="false" onAction="#handleinfAction" text="OK" />
+   </children>
+</AnchorPane>

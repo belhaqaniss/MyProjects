@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ubankkk.NextPageController">
+   <children>
+      <Button layoutX="56.0" layoutY="165.0" mnemonicParsing="false" onAction="#Solde" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #ffffff;" styleClass="btn_star" stylesheets="@style.css">
+         <graphic>
+            <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="/ubankkk/nn1png.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="182.0" layoutY="165.0" mnemonicParsing="false" onAction="#Depose" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #ffffff;" styleClass="btn_star1" stylesheets="@style.css">
+         <graphic>
+            <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="/ubankkk/nn2.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="308.0" layoutY="165.0" mnemonicParsing="false" onAction="#Retrait" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #ffffff;" styleClass="btn_star2" stylesheets="@style.css">
+         <graphic>
+            <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="/ubankkk/nn3.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="434.0" layoutY="165.0" mnemonicParsing="false" onAction="#Verse" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #ffffff;" styleClass="btn_star3" stylesheets="@style.css">
+         <graphic>
+            <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="/ubankkk/nn4.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Text layoutX="90.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Solde" />
+      <Text layoutX="209.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Déposer" />
+      <Text layoutX="339.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Retrait" />
+      <Text layoutX="456.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Versement" />
+      <Button layoutX="475.0" layoutY="344.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="208.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/ubankkk/koko.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

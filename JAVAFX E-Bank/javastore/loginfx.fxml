@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" style="-fx-background-color: #20120F;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javastore.Loginfx1Controller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="645.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true" />
+      <AnchorPane layoutX="329.0" layoutY="42.0" prefHeight="316.0" prefWidth="268.0" style="-fx-background-color: red;">
+         <children>
+            <TextField layoutX="27.0" layoutY="99.0" prefHeight="25.0" prefWidth="194.0" promptText="USERNAME" />
+            <PasswordField layoutX="27.0" layoutY="139.0" prefHeight="25.0" prefWidth="194.0" promptText="PASSWORD" />
+            <Button fx:id="buttonLogin" layoutX="37.0" layoutY="192.0" mnemonicParsing="false" onAction="#Log" prefHeight="35.0" prefWidth="69.0" text="LOGIN" textFill="#6f0e0e" />
+            <Button fx:id="buttonrest" cancelButton="true" layoutX="134.0" layoutY="192.0" mnemonicParsing="false" onAction="#Reset" prefHeight="35.0" prefWidth="69.0" text="QUIT" />
+            <Label layoutY="30.0" prefHeight="48.0" prefWidth="268.0" text="please enter your login information" textFill="#251d1d" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="400.0" fitWidth="300.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Pictures/login.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="8.0" layoutY="31.0" prefHeight="48.0" prefWidth="268.0" text="welcome to HY Store" textAlignment="CENTER" textFill="#f2e9e9">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

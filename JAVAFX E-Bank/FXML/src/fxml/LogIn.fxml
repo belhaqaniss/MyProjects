@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="Login" prefHeight="360.0" prefWidth="501.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.LogInController">
+    <children>
+      <ImageView fitHeight="500.0" fitWidth="501.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@kkkk.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="410.0" fitWidth="397.0" layoutX="53.0" layoutY="-103.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BROGYM.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="button" layoutX="209.0" layoutY="300.0" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="83.0" style="-fx-background-color: orange; -fx-background-radius: 15px;" text="Log In" textFill="WHITE" />
+      <PasswordField fx:id="MDP" alignment="CENTER" layoutX="151.0" layoutY="233.0" prefHeight="31.0" prefWidth="200.0" promptText="Mot de passe" style="-fx-background-radius: 20px;" />
+      <TextField fx:id="ID" alignment="CENTER" layoutX="151.0" layoutY="172.0" prefHeight="31.0" prefWidth="200.0" promptText="Identifiant" style="-fx-background-radius: 20px;" />
+    </children>
+</AnchorPane>

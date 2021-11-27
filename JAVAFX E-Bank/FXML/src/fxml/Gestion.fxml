@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="312.0" prefWidth="524.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.GestionController">
+   <children>
+      <Button fx:id="supp" layoutX="468.0" layoutY="261.0" mnemonicParsing="false" onAction="#handledelAction" prefHeight="38.0" prefWidth="42.0" text="-">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="inf" layoutX="367.0" layoutY="261.0" mnemonicParsing="false" onAction="#handleinfoAction" prefHeight="38.0" prefWidth="42.0" text="i">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="add" layoutX="415.0" layoutY="261.0" mnemonicParsing="false" onAction="#handleaddAction" prefHeight="37.0" prefWidth="42.0" text="+">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="modifier" layoutX="287.0" layoutY="261.0" mnemonicParsing="false" onAction="#handlemodifierAction" prefHeight="38.0" prefWidth="73.0" text="Modifier">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tab" layoutX="47.0" layoutY="14.0" prefHeight="226.0" prefWidth="431.0">
+        <columns>
+          <TableColumn fx:id="Nom_pren" prefWidth="169.0" text="Abonnés">
+               <columns>
+                  <TableColumn fx:id="col_name" prefWidth="74.0" text="Nom" />
+                  <TableColumn fx:id="col_pren" prefWidth="76.0" text="Prénom" />
+               </columns></TableColumn>
+          <TableColumn fx:id="col_prog" prefWidth="169.0" text="Programmes" />
+            <TableColumn fx:id="col_paie" prefWidth="110.0" text="Paiement" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

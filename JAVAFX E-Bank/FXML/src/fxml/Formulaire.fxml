@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="Formul" prefHeight="521.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.FormulaireController">
+   <children>
+      <Button fx:id="reset" layoutX="419.0" layoutY="482.0" mnemonicParsing="false" onAction="#handleresetAction" text="Initialiser" />
+      <Button fx:id="reg" layoutX="512.0" layoutY="482.0" mnemonicParsing="false" onAction="#handleregAction" text="Enregistrer" />
+      <Label layoutX="29.0" layoutY="103.0" text="Nom :" />
+      <Label layoutX="29.0" layoutY="142.0" text="Prénom :" />
+      <Label layoutX="26.0" layoutY="221.0" text="Date de naissance :" />
+      <Label layoutX="27.0" layoutY="434.0" text="Mode de paiement :" />
+      <Label layoutX="236.0" layoutY="14.0" prefHeight="66.0" prefWidth="265.0" text="Formulaire" textAlignment="CENTER">
+         <font>
+            <Font name="Dubai Regular" size="37.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nom" layoutX="149.0" layoutY="99.0" />
+      <TextField fx:id="prenom" layoutX="149.0" layoutY="138.0" />
+      <DatePicker fx:id="myDate" layoutX="149.0" layoutY="217.0" />
+      <RadioButton fx:id="Min" layoutX="77.0" layoutY="391.0" mnemonicParsing="false" selected="true" text="Minceur">
+         <toggleGroup>
+            <ToggleGroup fx:id="Prog" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="Rf" layoutX="189.0" layoutY="391.0" mnemonicParsing="false" text="Remise en forme" toggleGroup="$Prog" />
+      <RadioButton fx:id="Pdm" layoutX="352.0" layoutY="391.0" mnemonicParsing="false" text="Prise de masse" toggleGroup="$Prog" />
+      <ComboBox fx:id="cboOptions" layoutX="161.0" layoutY="430.0" prefWidth="150.0">
+         <effect>
+            <MotionBlur />
+         </effect>
+      </ComboBox>
+      <Label layoutX="28.0" layoutY="268.0" text="Taille (cm) :" />
+      <Label layoutX="29.0" layoutY="312.0" text="Poids (kg) :" />
+      <Label layoutX="26.0" layoutY="346.0" text="Objectif (kg) :" />
+      <TextField fx:id="taille" layoutX="149.0" layoutY="264.0" />
+      <TextField fx:id="poids" layoutX="149.0" layoutY="308.0" />
+      <TextField fx:id="new_poids" layoutX="149.0" layoutY="342.0" />
+      <RadioButton layoutX="132.0" layoutY="175.0" mnemonicParsing="false" selected="true" text="Homme ">
+         <toggleGroup>
+            <ToggleGroup fx:id="genre" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton layoutX="292.0" layoutY="175.0" mnemonicParsing="false" text="Femme" toggleGroup="$genre" />
+      <Label layoutX="32.0" layoutY="175.0" text="Sexe :" />
+   </children>
+</AnchorPane>

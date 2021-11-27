@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="ubankkk.RetraitController">
+   <children>
+      <Text layoutX="109.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Solde: " />
+      <Text fx:id="text" layoutX="145.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="00.00" />
+      <ProgressBar layoutX="159.0" layoutY="277.0" prefWidth="200.0" />
+      <Text layoutX="98.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Retrait" />
+      <TextField layoutX="159.0" layoutY="156.0" promptText="00.00 MAD" />
+      <Button layoutX="341.0" layoutY="156.0" mnemonicParsing="false" style="-fx-background-color: green;" text="Retrait" textFill="WHITE" />
+      <Button fx:id="button" layoutX="468.0" layoutY="330.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+   </children>
+</AnchorPane>

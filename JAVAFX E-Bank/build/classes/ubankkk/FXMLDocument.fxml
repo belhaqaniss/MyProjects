@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ubankkk.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="479.0" layoutY="250.0" prefHeight="25.0" prefWidth="76.0"onAction="#Login"  style="-fx-background-color: #0E8AFF;" text="Log in" textFill="WHITE" />
+      <TextField  fx:id="txtUsername" layoutX="375.0" layoutY="151.0" prefHeight="25.0" prefWidth="180.0" promptText="E-mail" />
+      <PasswordField fx:id="txtPassword" layoutX="376.0" layoutY="200.0" prefHeight="25.0" prefWidth="180.0" promptText="Password" />
+      <Text fill="#0e8aff" layoutX="399.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Text layoutX="428.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign In">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Button layoutX="373.0" layoutY="250.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="76.0" style="-fx-background-color: #333333;" text="Sign Up" textFill="#0e8aff" />
+      <Text fill="WHITE" layoutX="65.0" layoutY="352.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2020 Ubank Co, All rights reserved" wrappingWidth="189.255859375" />
+      <ImageView fitHeight="400.0" fitWidth="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/exemple/babo.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
